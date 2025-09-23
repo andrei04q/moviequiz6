@@ -9,7 +9,7 @@ struct MoviesLoader: MoviesLoading {
     
     // ✅ Исправленный URL: официальный IMDb API
     private var mostPopularMoviesUrl: URL {
-        guard let url = URL(string: "https://imdb-api.com/en/API/Top250Movies/k_kiwxbi4y") else {
+        guard let url = URL(string: "https://imdb-api.com/en/API/Top250Movies/k_zcuw1ytf") else {
             fatalError("❌ Invalid IMDb API URL")
         }
         return url
